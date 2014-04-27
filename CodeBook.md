@@ -1,5 +1,4 @@
 
-
 The experimental study design 
 =============================
 
@@ -46,16 +45,20 @@ mean(): Mean value
 std(): Standard deviation
 
 This process gave 66 variables. 
+
 Finally, we estimate the average of each variable for each activity and each subject.
 
 
 The summary choices and the trasnformations  
 ===========================================
-In order to produce the tidy data, we did the following processes:
+In order to produce the tidy data, we did the following processes in order:
 
-- Merge the training and the test sets to create one data set.
-- Extract only the measurements on the mean and standard deviation for each measurement.
-- Use descriptive activity names to name the activities in the data set
-- Appropriately label the data set with descriptive activity names
-- Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
+- Merge the training sets (y_train, subject_train, x_train) to create one data set: data.train
+- Merge the test sets (y_test, subject_test, x_test) to create one data set: data.test
+- Merge the two data.train and data.test datasets to create one data set: data.all
+- Extract only the measurements on the mean() and standard deviation() for each measurement (see the previous section)
+- Use descriptive activity names to name the activities in the data set according to the activity_labels.txt provided
+- Appropriately label the data set with descriptive activity names according to the features.txt provided
+- Create the independent tidy data set by applying the average for each activity and each subject on each remaining variable.
+
 
