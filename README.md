@@ -20,9 +20,9 @@ The data linked to from the course website represent data collected from the acc
 
 (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-The data can be found in the repo as a dataset.zip file. You can download the data here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+You can download the data here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
-Alternatively, for your convenience, you can find the same dataset as a zip file in the repo. You only need to download and uncompress the data in your current working directory before running the script. The code assumes that a "UCI HAR Dataset" folder has been successfully created under your current working directory.
+Alternatively, for your convenience, you can find the same dataset as a dataset.zip file in the repo. You only need to download and uncompress the data in your current working directory before running the script. The code assumes that a "UCI HAR Dataset" folder has been successfully created under your current working directory.
 
 ### The tidy data set
 
@@ -57,7 +57,7 @@ The script has been tested on Windows 7 Professional 64-bit with service pack #1
 Finally, the code assumes that the raw data set is kept in a "UCI HAR Dataset" folder under your current working directory.
 
 1. Step 1 - open RStudio, setup the working directory appropriately (see the "raw data" section above), 
-2. Step 2 - open and run the run_analysis.R script
+2. Step 2 - open and run/source the run_analysis.R script
 3. Step 3 - get the output tidy dataset inside the "UCI HAR Dataset" folder
 
 
